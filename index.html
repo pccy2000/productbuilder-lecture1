@@ -1,24 +1,19 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lotto Number Generator</title>
+    <title>저녁 메뉴 추천</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Lotto Number Generator</h1>
-        <div class="numbers-container">
-            <div class="number-circle"></div>
-            <div class="number-circle"></div>
-            <div class="number-circle"></div>
-            <div class="number-circle"></div>
-            <div class="number-circle"></div>
-            <div class="number-circle"></div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+        <h1>오늘 뭐 먹지?</h1>
+        <div id="menu-container" class="menu-container">
+            <p id="menu-text">메뉴를 추천받으세요!</p>
         </div>
-        <button id="generate-btn">Generate Numbers</button>
+        <button id="generate-btn">메뉴 추천받기</button>
     </div>
     <script src="main.js"></script>
 </body>
